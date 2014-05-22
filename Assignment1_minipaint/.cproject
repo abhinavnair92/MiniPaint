@@ -24,12 +24,10 @@
 									<listOptionValue builtIn="false" value="glu32"/>
 									<listOptionValue builtIn="false" value="gdi32"/>
 									<listOptionValue builtIn="false" value="opengl32"/>
-									<listOptionValue builtIn="false" value="glut"/>
 								</option>
 								<option id="macosx.cpp.link.option.paths.1707603243" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="/System/Library/Frameworks/OpenGL.framework"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Windows\System32\dll&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\MinGW\lib&quot;"/>
-									<listOptionValue builtIn="false" value="/opt/X11/lib"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.62019632" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
