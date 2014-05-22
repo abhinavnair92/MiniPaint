@@ -116,7 +116,7 @@ int main(int argc,char *argv[]){
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);
     glutInitWindowSize(400,400);
     glutInitWindowPosition(100,100);
-    glutCreateWindow("Polygon Clipping!");
+    glutCreateWindow("Albert Polygon Clipping!");
     glutDisplayFunc(display);
     glutMainLoop();
     return 0;
