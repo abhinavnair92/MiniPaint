@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+<<<<<<< HEAD
 ../Trangle.cpp 
 
 OBJS += \
@@ -11,6 +12,15 @@ OBJS += \
 
 CPP_DEPS += \
 ./Trangle.d 
+=======
+../Test.cpp 
+
+OBJS += \
+./Test.o 
+
+CPP_DEPS += \
+./Test.d 
+>>>>>>> origin/master
 
 
 # Each subdirectory must supply rules for building sources it contributes

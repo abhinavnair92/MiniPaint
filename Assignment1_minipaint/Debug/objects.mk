@@ -4,5 +4,9 @@
 
 USER_OBJS :=
 
+<<<<<<< HEAD
 LIBS :=
+=======
+LIBS := -lgl -lglut -lglu
+>>>>>>> origin/master
 
