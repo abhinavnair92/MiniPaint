@@ -1,4 +1,8 @@
-#include <GLUT/glut.h>
+//#include <GLUT/glut.h>
+#include <windows.h>
+#include <GL/gl.h>
+#include <GL/glut.h>
+#include <GL/glu.h>
 
 struct Point{
     float x,y;
