@@ -44,9 +44,13 @@ Assignment1_minipaint: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
 <<<<<<< HEAD
+<<<<<<< HEAD
 	g++  -o "Assignment1_minipaint" $(OBJS) $(USER_OBJS) $(LIBS)
 =======
 	g++ -L/System/Library/Frameworks/OpenGL.framework -L/opt/X11/lib -o "Assignment1_minipaint" $(OBJS) $(USER_OBJS) $(LIBS)
+>>>>>>> origin/master
+=======
+	g++ -L"C:\Windows\System32\dll" -L"C:\MinGW\lib" -o "Assignment1_minipaint" $(OBJS) $(USER_OBJS) $(LIBS)
 >>>>>>> origin/master
 	@echo 'Finished building target: $@'
 	@echo ' '
