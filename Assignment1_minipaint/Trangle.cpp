@@ -78,25 +78,25 @@ void keyboard ( unsigned char key, int mousePositionX, int mousePositionY )
   }
 }
 
-int main(int argc, char **argv)
-{
-	// set window values
-	win.width = 640;
-	win.height = 480;
-	win.title = "OpenGL/GLUT Example. Visit http://openglsamples.sf.net ";
-	win.field_of_view_angle = 45;
-	win.z_near = 1.0f;
-	win.z_far = 500.0f;
-
-	// initialize and run program
-	glutInit(&argc, argv);                                      // GLUT initialization
-	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH );  // Display Mode
-	glutInitWindowSize(win.width,win.height);					// set window size
-	glutCreateWindow(win.title);								// create Window
-	glutDisplayFunc(display);									// register Display Function
-	glutIdleFunc( display );									// register Idle Function
-    glutKeyboardFunc( keyboard );								// register Keyboard Handler
-	initialize();
-	glutMainLoop();												// run GLUT mainloop
-	return 0;
-}
+//int main(int argc, char **argv)
+//{
+//	// set window values
+//	win.width = 640;
+//	win.height = 480;
+//	win.title = "OpenGL/GLUT Example. Visit http://openglsamples.sf.net ";
+//	win.field_of_view_angle = 45;
+//	win.z_near = 1.0f;
+//	win.z_far = 500.0f;
+//
+//	// initialize and run program
+//	glutInit(&argc, argv);                                      // GLUT initialization
+//	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH );  // Display Mode
+//	glutInitWindowSize(win.width,win.height);					// set window size
+//	glutCreateWindow(win.title);								// create Window
+//	glutDisplayFunc(display);									// register Display Function
+//	glutIdleFunc( display );									// register Idle Function
+//    glutKeyboardFunc( keyboard );								// register Keyboard Handler
+//	initialize();
+//	glutMainLoop();												// run GLUT mainloop
+//	return 0;
+//}
