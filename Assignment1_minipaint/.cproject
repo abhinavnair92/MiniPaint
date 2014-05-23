@@ -20,13 +20,15 @@
 							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.32349377" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1497134214" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
 								<option id="macosx.cpp.link.option.libs.1316592435" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="glut32"/>
-									<listOptionValue builtIn="false" value="glu32"/>
-									<listOptionValue builtIn="false" value="gdi32"/>
-									<listOptionValue builtIn="false" value="opengl32"/>
+									<listOptionValue builtIn="false" value="glut"/>
+									<listOptionValue builtIn="false" value="test"/>
+									<listOptionValue builtIn="false" value="glu"/>
+									<listOptionValue builtIn="false" value="gl"/>
 								</option>
 								<option id="macosx.cpp.link.option.paths.1707603243" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;C:\Windows\System32\dll&quot;"/>
+									<listOptionValue builtIn="false" value="/opt/X11/lib"/>
+									<listOptionValue builtIn="false" value="/System/Library/Frameworks/OpenGL.framework"/>
 									<listOptionValue builtIn="false" value="&quot;C:\MinGW\lib&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.62019632" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
