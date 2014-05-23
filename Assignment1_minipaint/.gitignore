@@ -1,6 +1,9 @@
-.cproject
-.project
-/Debug
-\Debug
-/Debug
-/Debug
+#windows ignores for properties changes
+Assignment1_minipaint\Debug
+Assignment1_minipaint\.cproject
+Assignment1_minipaint\.project
+
+#mac ignores for properties changes
+Assignment1_minipaint/Debug
+Assignment1_minipaint/.cproject
+Assignment1_minipaint/.project
