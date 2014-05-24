@@ -19,10 +19,7 @@
 							<builder buildPath="${workspace_loc:/Assignment1_minipaint}/Debug" id="org.eclipse.cdt.build.core.internal.builder.1733160314" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
 							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.32349377" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1497134214" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
-								<option id="macosx.cpp.link.option.libs.1316592435" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="glu"/>
-									<listOptionValue builtIn="false" value="gl"/>
-								</option>
+								<option id="macosx.cpp.link.option.libs.1316592435" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs"/>
 								<option id="macosx.cpp.link.option.paths.1707603243" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;C:\Windows\System32\dll&quot;"/>
 									<listOptionValue builtIn="false" value="/opt/X11/lib"/>
