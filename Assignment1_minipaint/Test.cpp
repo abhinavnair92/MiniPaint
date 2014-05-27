@@ -96,7 +96,7 @@ void init(){
     w[2].x =80,w[2].y=80;
     w[3].x =80,w[3].y=10;
 }
-void display(void){
+void display4(void){
     Point inVer[4];
     init();
     // Drawing the Window for Clipping
@@ -117,6 +117,7 @@ void display(void){
     // Print
     glFlush();
 }
+<<<<<<< HEAD
 
 int main(int argc,char *argv[]){
     glutInit(&argc,argv);
@@ -128,3 +129,16 @@ int main(int argc,char *argv[]){
     glutMainLoop();
     return 0;
 }
+=======
+//
+//int main(int argc,char *argv[]){
+//    glutInit(&argc,argv);
+//    glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);
+//    glutInitWindowSize(400,400);
+//    glutInitWindowPosition(100,100);
+//    glutCreateWindow("Albert Polygon Clipping!");
+//    glutDisplayFunc(display);
+//    glutMainLoop();
+//    return 0;
+//}
+>>>>>>> 8032c4f39eebb39c17357cde9f950756ff98fb0c

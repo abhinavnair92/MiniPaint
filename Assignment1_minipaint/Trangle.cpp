@@ -2,6 +2,18 @@
  * @Author Nobody
  *
  */
+#ifdef __APPLE__
+    #include "TargetConditionals.h"
+    #ifdef TARGET_OS_MAC
+        #include <GLUT/glut.h>
+        #include <OpenGL/OpenGL.h>
+    #endif
+#elif defined _WIN32 || defined _WIN64
+    #include <windows.h>
+	#include <GL/gl.h>
+	#include <GL/glut.h>
+	#include <GL/glu.h>
+#endif
 
 #include <stdio.h>
 #include <windows.h>	   // Standard header for MS Windows applications
@@ -16,7 +28,6 @@ typedef struct {
     int width;
 	int height;
 	char* title;
-
 	float field_of_view_angle;
 	float z_near;
 	float z_far;
@@ -25,7 +36,7 @@ typedef struct {
 glutWindow win;
 
 
-void display()
+void display2()
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);		     // Clear Screen and Depth Buffer
 	glLoadIdentity();
@@ -35,9 +46,9 @@ void display()
 	 * Triangle code starts here
 	 * 3 verteces, 3 colors.
 	 */
-	glBegin(GL_TRIANGLES);
+		glBegin(GL_TRIANGLES);
 		glColor3f(0.0f,0.0f,1.0f);
-		glVertex3f( 0.0f, 1.0f, 0.0f);
+		glVertex3f( 0.5f, 1.0f, 0.0f);
 		glColor3f(0.0f,1.0f,0.0f);
 		glVertex3f(-1.0f,-1.0f, 0.0f);
 		glColor3f(1.0f,0.0f,0.0f);
@@ -94,8 +105,8 @@ int main(int argc, char **argv)
 	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH );  // Display Mode
 	glutInitWindowSize(win.width,win.height);					// set window size
 	glutCreateWindow(win.title);								// create Window
-	glutDisplayFunc(display);									// register Display Function
-	glutIdleFunc( display );									// register Idle Function
+	glutDisplayFunc(display2);									// register Display Function
+	glutIdleFunc( display2 );									// register Idle Function
     glutKeyboardFunc( keyboard );								// register Keyboard Handler
 	initialize();
 	glutMainLoop();												// run GLUT mainloop
