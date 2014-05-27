@@ -96,7 +96,7 @@ void init(){
     w[2].x =80,w[2].y=80;
     w[3].x =80,w[3].y=10;
 }
-void display(void){
+void display4(void){
     Point inVer[4];
     init();
     // Drawing the Window for Clipping
